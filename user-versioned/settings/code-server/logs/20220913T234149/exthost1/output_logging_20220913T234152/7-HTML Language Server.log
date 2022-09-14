@@ -1,0 +1,115 @@
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'typescript'
+Require stack:
+- /opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.5034 (/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1335953)
+    at n (/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1336145)
+    at Object.5906 (/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1310082)
+    at n (/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1336145)
+    at Object.5704 (/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1323446)
+    at n (/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1336145) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js'
+  ]
+}
+[Info  - 11:46:14 PM] Connection to server got closed. Server will restart.
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'typescript'
+Require stack:
+- /opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.5034 (/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1335953)
+    at n (/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1336145)
+    at Object.5906 (/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1310082)
+    at n (/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1336145)
+    at Object.5704 (/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1323446)
+    at n (/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1336145) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js'
+  ]
+}
+[Info  - 11:46:14 PM] Connection to server got closed. Server will restart.
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'typescript'
+Require stack:
+- /opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.5034 (/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1335953)
+    at n (/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1336145)
+    at Object.5906 (/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1310082)
+    at n (/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1336145)
+    at Object.5704 (/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1323446)
+    at n (/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1336145) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js'
+  ]
+}
+[Info  - 11:46:15 PM] Connection to server got closed. Server will restart.
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'typescript'
+Require stack:
+- /opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.5034 (/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1335953)
+    at n (/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1336145)
+    at Object.5906 (/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1310082)
+    at n (/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1336145)
+    at Object.5704 (/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1323446)
+    at n (/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1336145) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js'
+  ]
+}
+[Info  - 11:46:15 PM] Connection to server got closed. Server will restart.
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'typescript'
+Require stack:
+- /opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.5034 (/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1335953)
+    at n (/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1336145)
+    at Object.5906 (/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1310082)
+    at n (/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1336145)
+    at Object.5704 (/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1323446)
+    at n (/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1336145) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/opt/dataiku/code-server/lib/vscode/extensions/html-language-features/server/dist/node/htmlServerMain.js'
+  ]
+}
+[Error - 11:46:15 PM] Connection to server got closed. Server will not be restarted.

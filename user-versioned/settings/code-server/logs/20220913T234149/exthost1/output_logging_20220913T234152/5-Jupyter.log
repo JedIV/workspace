@@ -1,0 +1,59 @@
+Code - OSS (1.64.2, jed.amer.dataiku-sandbox.io, desktop)
+Jupyter Extension Version: 2022.3.1000752054.
+Python Extension Version: 2022.4.1.
+Error 23:44:00: Exception while attempting zmq : [Error: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.20' not found (required by /home/dataiku/.local/share/code-server/local-extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/node_modules/zeromq/prebuilds/linux-x64/node.napi.glibc.node)
+	at Object.Module._extensions..node (internal/modules/cjs/loader.js:1144:18)
+	at Module.load (internal/modules/cjs/loader.js:950:32)
+	at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+	at Function.i._load (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:112:32393)
+	at Function.u._load (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:112:28869)
+	at Function.p._load (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:107:60382)
+	at Module.require (internal/modules/cjs/loader.js:974:19)
+	at require (internal/modules/cjs/helpers.js:101:18)
+	at load (/home/dataiku/.local/share/code-server/local-extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/node_modules/node-gyp-build/index.js:1:543)
+	at Object.<anonymous> (/home/dataiku/.local/share/code-server/local-extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/node_modules/zeromq/lib/native.js:1:136)
+	at Module._compile (internal/modules/cjs/loader.js:1085:14)
+	at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+	at Module.load (internal/modules/cjs/loader.js:950:32)
+	at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+	at Function.i._load (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:112:32393)
+	at Function.u._load (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:112:28869)
+	at Function.p._load (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:107:60382)
+	at Module.require (internal/modules/cjs/loader.js:974:19)
+	at require (internal/modules/cjs/helpers.js:101:18)
+	at Object.<anonymous> (/home/dataiku/.local/share/code-server/local-extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/node_modules/zeromq/lib/index.js:1:82)
+	at Module._compile (internal/modules/cjs/loader.js:1085:14)
+	at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+	at Module.load (internal/modules/cjs/loader.js:950:32)
+	at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+	at Function.i._load (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:112:32393)
+	at Function.u._load (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:112:28869)
+	at Function.p._load (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:107:60382)
+	at Module.require (internal/modules/cjs/loader.js:974:19)
+	at require (internal/modules/cjs/helpers.js:101:18)
+	at Object.92747 (/home/dataiku/.local/share/code-server/local-extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:3881660)
+	at __webpack_require__ (/home/dataiku/.local/share/code-server/local-extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:4549326)
+	at u.zmqSupported (/home/dataiku/.local/share/code-server/local-extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:975703)
+	at u.isSupportedForLocalLaunch (/home/dataiku/.local/share/code-server/local-extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:975446)
+	at u.get isSupported [as isSupported] (/home/dataiku/.local/share/code-server/local-extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:975356)
+	at t.registerTypes (/home/dataiku/.local/share/code-server/local-extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:986589)
+	at /home/dataiku/.local/share/code-server/local-extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:1073052
+	at async /home/dataiku/.local/share/code-server/local-extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:4550901
+	at async e.activate (/home/dataiku/.local/share/code-server/local-extensions/ms-toolsai.jupyter-2022.3.1000752054/out/client/extension.js:2:4550578)
+	at async Promise.all (index 1)] {
+  code: 'ERR_DLOPEN_FAILED'
+}
+Info 23:44:01: Experiment status for python is {"enabled":false,"optInto":[],"optOutFrom":[]}
+Info 23:44:01: Process Execution: > /opt/dataiku/py37-dss/bin/python -m pip list
+> /opt/dataiku/py37-dss/bin/python -m pip list
+Info 23:44:01: Process Execution: > /opt/dataiku/py37-dss/bin/python -c "import jupyter"
+> /opt/dataiku/py37-dss/bin/python -c "import jupyter"
+Info 23:44:01: Process Execution: > /opt/dataiku/py37-dss/bin/python -c "import notebook"
+> /opt/dataiku/py37-dss/bin/python -c "import notebook"
+Info 00:11:07: Shutting down notebooks for d8005fe0-2d32-445a-b374-08bfb56b5113
+Info 00:11:07: Disposing HostJupyterExecution 7dd4f833-a2d6-42dd-ade0-837bd814df47
+Info 00:11:07: Disposing super HostJupyterExecution 7dd4f833-a2d6-42dd-ade0-837bd814df47
+Info 00:11:07: Disposing HostJupyterExecution 7dd4f833-a2d6-42dd-ade0-837bd814df47
+Info 00:11:07: Finished disposing HostJupyterExecution  7dd4f833-a2d6-42dd-ade0-837bd814df47
+Info 00:11:07: Cleaning up server cache 7dd4f833-a2d6-42dd-ade0-837bd814df47
+Info 00:11:07: Finished disposing HostJupyterExecution  7dd4f833-a2d6-42dd-ade0-837bd814df47

@@ -1,0 +1,7 @@
+{
+ "workbench.colorTheme":"Default Dark+",
+ "git.ignoreLegacyWarning":true,
+ "telemetry.enableTelemetry": false,
+"update.mode": "none",
+"window.menuBarVisibility": "classic"
+}

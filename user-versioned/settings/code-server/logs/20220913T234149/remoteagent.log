@@ -1,0 +1,44 @@
+[2022-09-13 23:41:49.715] [remoteagent] [info] Extension host agent started.
+[2022-09-13 23:41:51.063] [remoteagent] [info] [127.0.0.1][290ff170][ManagementConnection] New connection established.
+[2022-09-13 23:41:51.690] [remoteagent] [info] [127.0.0.1][a66a813a][ExtensionHostConnection] New connection established.
+[2022-09-13 23:41:51.699] [remoteagent] [info] [127.0.0.1][a66a813a][ExtensionHostConnection] <124> Launched Extension Host Process.
+[2022-09-13 23:47:30.753] [remoteagent] [error] Error: listen EACCES: permission denied /data/dataiku/temp/vscode-ipc-3fcb2fd6-6a56-4633-8b0b-b5e2fb9e6683.sock
+    at Server.setupListenHandle [as _listen2] (net.js:1314:21)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1476:5)
+    at E.setup (/opt/dataiku/code-server/lib/vscode/out/vs/server/node/server.main.js:146:122277)
+    at new E (/opt/dataiku/code-server/lib/vscode/out/vs/server/node/server.main.js:146:122165)
+    at l._createProcess (/opt/dataiku/code-server/lib/vscode/out/vs/server/node/server.main.js:146:131518)
+[2022-09-13 23:49:01.362] [remoteagent] [info] Getting Manifest... github.vscode-pull-request-github
+[2022-09-13 23:49:01.941] [remoteagent] [info] Installing extension: github.vscode-pull-request-github
+[2022-09-13 23:49:03.099] [remoteagent] [info] Downloaded extension: github.vscode-pull-request-github /home/dataiku/workspace/user-versioned/settings/code-server/CachedExtensionVSIXs/github.vscode-pull-request-github-0.36.2
+[2022-09-13 23:49:03.158] [remoteagent] [info] Extracted extension to /home/dataiku/workspace/code_studio-resources/vscode-extensions/.9fb5e38e-e794-432f-87b7-60247fe6ca94: github.vscode-pull-request-github
+[2022-09-13 23:49:03.163] [remoteagent] [info] Renamed to /home/dataiku/workspace/code_studio-resources/vscode-extensions/github.vscode-pull-request-github-0.36.2
+[2022-09-13 23:49:03.165] [remoteagent] [info] Extracting completed. github.vscode-pull-request-github
+[2022-09-13 23:49:03.165] [remoteagent] [info] Extension installed successfully: github.vscode-pull-request-github
+[2022-09-13 23:49:03.970] [remoteagent] [warning] Switching to using in-memory credential store instead because Keytar failed to load: Cannot find module 'keytar'
+Require stack:
+- /opt/dataiku/code-server/lib/vscode/out/bootstrap-amd.js
+- /opt/dataiku/code-server/out/node/util.js
+- /opt/dataiku/code-server/out/node/cli.js
+- /opt/dataiku/code-server/out/node/entry.js
+[2022-09-13 23:55:11.932] [remoteagent] [info] Getting Manifest... asvetliakov.vscode-neovim
+[2022-09-13 23:55:12.583] [remoteagent] [info] Installing extension: asvetliakov.vscode-neovim
+[2022-09-13 23:55:13.799] [remoteagent] [info] Downloaded extension: asvetliakov.vscode-neovim /home/dataiku/workspace/user-versioned/settings/code-server/CachedExtensionVSIXs/asvetliakov.vscode-neovim-0.0.87
+[2022-09-13 23:55:13.857] [remoteagent] [info] Extracted extension to /home/dataiku/workspace/code_studio-resources/vscode-extensions/.5cc8ab68-2cb8-4c90-b8e7-d5640a5009a6: asvetliakov.vscode-neovim
+[2022-09-13 23:55:13.863] [remoteagent] [info] Renamed to /home/dataiku/workspace/code_studio-resources/vscode-extensions/asvetliakov.vscode-neovim-0.0.87
+[2022-09-13 23:55:13.865] [remoteagent] [info] Extracting completed. asvetliakov.vscode-neovim
+[2022-09-13 23:55:13.865] [remoteagent] [info] Extension installed successfully: asvetliakov.vscode-neovim
+[2022-09-14 00:11:07.028] [remoteagent] [info] [127.0.0.1][290ff170][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-09-14 00:11:07.068] [remoteagent] [info] [127.0.0.1][a66a813a][ExtensionHostConnection] <124> Extension Host Process exited with code: 0, signal: null.
+[2022-09-14 00:11:10.051] [remoteagent] [info] [127.0.0.1][c89b8905][ManagementConnection] New connection established.
+[2022-09-14 00:11:10.696] [remoteagent] [info] [127.0.0.1][b667f5c3][ExtensionHostConnection] New connection established.
+[2022-09-14 00:11:10.706] [remoteagent] [info] [127.0.0.1][b667f5c3][ExtensionHostConnection] <2432> Launched Extension Host Process.
+[2022-09-14 00:11:22.058] [remoteagent] [info] Uninstalling extension: asvetliakov.vscode-neovim
+[2022-09-14 00:11:22.134] [remoteagent] [info] Detected extension removed from another source asvetliakov.vscode-neovim
+[2022-09-14 00:11:22.278] [remoteagent] [info] Successfully uninstalled extension: asvetliakov.vscode-neovim
+[2022-09-14 00:11:31.117] [remoteagent] [info] [127.0.0.1][c89b8905][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-09-14 00:11:31.152] [remoteagent] [info] [127.0.0.1][b667f5c3][ExtensionHostConnection] <2432> Extension Host Process exited with code: 0, signal: null.
+[2022-09-14 00:11:31.869] [remoteagent] [info] [127.0.0.1][f97b96ee][ManagementConnection] New connection established.
+[2022-09-14 00:11:32.507] [remoteagent] [info] [127.0.0.1][cae3bf0a][ExtensionHostConnection] New connection established.
+[2022-09-14 00:11:32.515] [remoteagent] [info] [127.0.0.1][cae3bf0a][ExtensionHostConnection] <2548> Launched Extension Host Process.

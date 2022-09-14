@@ -1,0 +1,139 @@
+[2022-09-13 23:41:52.366] [exthost] [info] Extension host with pid 124 started
+[2022-09-13 23:41:52.366] [exthost] [error] Error: listen EACCES: permission denied /data/dataiku/temp/vscode-ipc-f3c68f71-3525-4add-a330-26905d9f3378.sock
+    at Server.setupListenHandle [as _listen2] (net.js:1314:21)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1476:5)
+    at F.setup (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:112:26015)
+    at new P (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:112:25903)
+    at new F (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:112:28273)
+    at F._createInstance (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:80:1354)
+    at F.createInstance (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:80:773)
+    at v._beforeAlmostReadyToRunExtensions (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:112:29458)
+    at v.initialize (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:98:9737)
+    at new v (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:101:10496)
+    at a (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:112:36521)
+[2022-09-13 23:41:52.366] [exthost] [error] Error: ENOENT: no such file or directory, open '/data/dataiku/temp/vscode-ipc'
+[2022-09-13 23:41:52.374] [exthost] [info] Lock '/home/dataiku/workspace/user-versioned/settings/code-server/User/workspaceStorage/-59c480f9/vscode.lock': Lock acquired.
+[2022-09-13 23:41:52.473] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-09-13 23:41:52.479] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-09-13 23:41:52.543] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-09-13 23:41:52.603] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-09-13 23:41:52.669] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-13 23:41:52.685] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-13 23:41:52.689] [exthost] [info] Eager extensions activated
+[2022-09-13 23:41:52.763] [exthost] [warning] [vscode.emmet] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'emmet.includeLanguages', provide the URI of a resource or 'null' for any resource.
+[2022-09-13 23:42:18.784] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-09-13 23:42:18.789] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-09-13 23:42:18.849] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-09-13 23:44:00.142] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2022-09-13 23:44:00.325] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2022-09-13 23:44:00.893] [exthost] [warning] [ms-toolsai.jupyter] Accessing a window scoped configuration for a resource is not expected. To associate 'jupyter.allowInput' to a resource, define its scope to 'resource' in configuration contributions in 'package.json'.
+[2022-09-13 23:44:01.016] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2022-09-13 23:44:01.053] [exthost] [warning] [ms-python.python] Accessing a window scoped configuration for a resource is not expected. To associate 'python.languageServer' to a resource, define its scope to 'resource' in configuration contributions in 'package.json'.
+[2022-09-13 23:44:01.055] [exthost] [warning] [ms-python.python] Accessing a window scoped configuration for a resource is not expected. To associate 'python.languageServer' to a resource, define its scope to 'resource' in configuration contributions in 'package.json'.
+[2022-09-13 23:44:01.217] [exthost] [warning] [ms-python.python] Accessing a window scoped configuration for a resource is not expected. To associate 'python.languageServer' to a resource, define its scope to 'resource' in configuration contributions in 'package.json'.
+[2022-09-13 23:44:01.219] [exthost] [warning] [ms-python.python] Accessing a window scoped configuration for a resource is not expected. To associate 'python.languageServer' to a resource, define its scope to 'resource' in configuration contributions in 'package.json'.
+[2022-09-13 23:46:14.378] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2022-09-13 23:46:14.409] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-09-13 23:46:14.421] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+[2022-09-13 23:46:14.449] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-09-13 23:49:03.560] [exthost] [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: '*'
+[2022-09-13 23:49:03.777] [exthost] [warning] [GitHub.vscode-pull-request-github] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'git.openDiffOnClick', provide the URI of a resource or 'null' for any resource.
+[2022-09-13 23:49:03.849] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-09-13 23:53:29.623] [exthost] [warning] [vscode.git] Accessing a window scoped configuration for a resource is not expected. To associate 'git.requireGitUserConfig' to a resource, define its scope to 'resource' in configuration contributions in 'package.json'.
+[2022-09-13 23:53:30.215] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-13 23:53:30.215] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-13 23:53:30.215] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-13 23:53:30.215] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-13 23:53:30.215] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-13 23:53:30.215] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-13 23:53:30.216] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-13 23:53:30.216] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-13 23:53:30.216] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-13 23:53:30.216] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-13 23:53:30.216] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-13 23:53:30.216] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-13 23:53:30.216] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-13 23:53:30.216] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-13 23:53:30.216] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-13 23:53:30.216] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-13 23:53:30.216] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-13 23:53:30.216] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-13 23:53:30.216] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-13 23:53:30.216] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-13 23:53:30.216] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-13 23:53:30.216] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-13 23:53:30.216] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-13 23:53:30.216] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-13 23:53:30.216] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-13 23:53:30.216] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-13 23:53:30.216] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-13 23:53:30.216] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-13 23:53:30.216] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-13 23:53:30.216] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-13 23:55:14.105] [exthost] [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: false, activationEvent: '*'
+[2022-09-13 23:56:50.079] [exthost] [warning] [vscode.git] Accessing a window scoped configuration for a resource is not expected. To associate 'git.requireGitUserConfig' to a resource, define its scope to 'resource' in configuration contributions in 'package.json'.
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:01:51.892] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: '/home/dataiku/workspace/code_studio-resources/vscode-extensions/ms-python.python-2022.4.1' is outside repository\n","exitCode":128}
+[2022-09-14 00:08:40.437] [exthost] [info] ExtensionService#_doActivateExtension vscode.image-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+[2022-09-14 00:08:57.315] [exthost] [warning] [vscode.git] Accessing a window scoped configuration for a resource is not expected. To associate 'git.requireGitUserConfig' to a resource, define its scope to 'resource' in configuration contributions in 'package.json'.
+[2022-09-14 00:11:07.027] [exthost] [info] extension host terminating: received terminate message from renderer
+[2022-09-14 00:11:07.028] [exthost] [info] Lock '/home/dataiku/workspace/user-versioned/settings/code-server/User/workspaceStorage/-59c480f9/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-09-14 00:11:07.041] [exthost] [error] An error occurred when deactivating the extension 'vscode.typescript-language-features':
+[2022-09-14 00:11:07.041] [exthost] [error] Error: ENOENT: no such file or directory, mkdir '/data/dataiku/temp/vscode-typescript998'
+	at Object.mkdirSync (fs.js:1013:3)
+	at /opt/dataiku/code-server/lib/vscode/extensions/typescript-language-features/dist/extension.js:1:570594
+	at Object.getInstanceTempDir (/opt/dataiku/code-server/lib/vscode/extensions/typescript-language-features/dist/extension.js:1:570671)
+	at Object.e.deactivate (/opt/dataiku/code-server/lib/vscode/extensions/typescript-language-features/dist/extension.js:1:583033)
+	at v._deactivate (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:98:11670)
+	at /opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:98:10211
+	at Array.map (<anonymous>)
+	at v.deactivateAll (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:98:10198)
+	at v.terminate (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:102:735)
+	at s (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:112:36570)
+	at /opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:112:34449
+	at l.fire (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:1712)
+	at s.fire (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:19002)
+	at a._receiveMessage (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:23583)
+	at /opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:21117
+	at l.fire (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:1712)
+	at _.acceptChunk (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:15833)
+	at /opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:14963
+	at l.fire (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:1712)
+	at f._processReadQueue (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:112:21320)
+[2022-09-14 00:11:07.059] [exthost] [info] Extension host with pid 124 exiting with code 0

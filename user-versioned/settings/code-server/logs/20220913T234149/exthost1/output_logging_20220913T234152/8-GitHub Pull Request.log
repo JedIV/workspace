@@ -1,0 +1,41 @@
+[Info] /home/dataiku/.ssh/config: ENOENT: no such file or directory, open '/home/dataiku/.ssh/config'
+[Info] TemporaryState> Error in initialization: Unable to delete nonexistent file 'vscode-remote://jed.amer.dataiku-sandbox.io/home/dataiku/workspace/user-versioned/settings/code-server/User/globalStorage/github.vscode-pull-request-github/temp'
+[Info] Registering git provider
+[Info] Looking for git repository
+[Info] Found 0 repositories during activation
+[Info] Git repository found, initializing review manager and pr tree view.
+[Info] Repository file:///home/dataiku/workspace has been opened
+[Info] Review> Validate state in progress
+[Info] Review> Validating state...
+[Info] No remotes found. The following remotes are missing: origin, upstream
+[Info] Review> Queuing additional validate state
+[Info] Repo state for file:///home/dataiku/workspace changed.
+[Info] Repo file:///home/dataiku/workspace has already been setup.
+[Info] No GitHub remotes found
+[Info] Review> no matching pull request metadata found for current branch master
+[Info] Review> no matching pull request metadata found on GitHub for current branch master
+[Info] Review> Validating state...
+[Info] No remotes found. The following remotes are missing: origin, upstream
+[Info] No GitHub remotes found
+[Info] Review> no matching pull request metadata found for current branch master
+[Info] Review> no matching pull request metadata found on GitHub for current branch master
+[Info] Repository file:///home/dataiku/workspace has been opened
+[Info] Review> Validate state in progress
+[Info] Review> Validating state...
+[Info] No remotes found. The following remotes are missing: origin, upstream
+[Info] Review> Queuing additional validate state
+[Info] Repo state for file:///home/dataiku/workspace changed.
+[Info] Repo file:///home/dataiku/workspace has already been setup.
+[Info] No GitHub remotes found
+[Info] Review> no matching pull request metadata found for current branch master
+[Info] Review> no matching pull request metadata found on GitHub for current branch master
+[Info] Review> Validating state...
+[Info] No remotes found. The following remotes are missing: origin, upstream
+[Info] No GitHub remotes found
+[Info] Review> no matching pull request metadata found for current branch master
+[Info] Review> no matching pull request metadata found on GitHub for current branch master
+[Info] Review> Queuing additional validate state
+[Info] Review> Validating state...
+[Info] Found GitHub remote
+[Info] Review> no matching pull request metadata found for current branch master
+[Info] Review> no matching pull request metadata found on GitHub for current branch master

@@ -1,0 +1,12 @@
+> conda info --json
+> /opt/dataiku/py37-dss/bin/python ~/.local/share/code-server/local-extensions/ms-python.python-2022.4.1/pythonFiles/get_output_via_markers.py ~/.local/share/code-server/local-extensions/ms-python.python-2022.4.1/pythonFiles/interpreterInfo.py
+> /bin/python ~/.local/share/code-server/local-extensions/ms-python.python-2022.4.1/pythonFiles/get_output_via_markers.py ~/.local/share/code-server/local-extensions/ms-python.python-2022.4.1/pythonFiles/interpreterInfo.py
+> /bin/python3 ~/.local/share/code-server/local-extensions/ms-python.python-2022.4.1/pythonFiles/get_output_via_markers.py ~/.local/share/code-server/local-extensions/ms-python.python-2022.4.1/pythonFiles/interpreterInfo.py
+Python interpreter path: /opt/dataiku/py37-dss/bin/python
+> /usr/bin/python ~/.local/share/code-server/local-extensions/ms-python.python-2022.4.1/pythonFiles/get_output_via_markers.py ~/.local/share/code-server/local-extensions/ms-python.python-2022.4.1/pythonFiles/interpreterInfo.py
+> /usr/bin/python3 ~/.local/share/code-server/local-extensions/ms-python.python-2022.4.1/pythonFiles/get_output_via_markers.py ~/.local/share/code-server/local-extensions/ms-python.python-2022.4.1/pythonFiles/interpreterInfo.py
+> /usr/local/bin/python3.7 ~/.local/share/code-server/local-extensions/ms-python.python-2022.4.1/pythonFiles/get_output_via_markers.py ~/.local/share/code-server/local-extensions/ms-python.python-2022.4.1/pythonFiles/interpreterInfo.py
+Starting Jedi language server.
+> . /opt/dataiku/py37-dss/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.local/share/code-server/local-extensions/ms-python.python-2022.4.1/pythonFiles/printEnvVariables.py
+> . /opt/dataiku/py37-dss/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.local/share/code-server/local-extensions/ms-python.python-2022.4.1/pythonFiles/printEnvVariables.py
+> . /opt/dataiku/py37-dss/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.local/share/code-server/local-extensions/ms-python.python-2022.4.1/pythonFiles/printEnvVariables.py
